@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldo Conti</title>
+    <meta name="keywords" content="Starbucks" />
+    <meta name="description" content="Starbucks" />
+    <meta name="author" content="Miguel Angel Almonte Chavez" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" type="text/css" href="grid.css" />
+    <link rel="stylesheet" href="material.min.css">
+    <script src="material.min.js"></script>
+
+</head>
+<body>
+    <div class="grid">
+        <div class="caja1">
+            <img class="imagen_logo" src="cabecera.png" alt="cabecera" />  
+        </div>
+        <div class="caja3">
+            <img class="traje" src="articulo_1.png" alt="oferta1" />
+            <p>Traje Vestir Color Negro Marca Vasanti</p>
+            <p>De:<strike>$3,899 </strike> A:$999</p>
+        </div>
+        <div class="caja4">
+            <img class="traje" src="articulo_2.png" alt="oferta2"/>
+            <p>Reloj Color Gris Vermonti</p>
+            <p>De:<strike>$1,499 </strike> A:$399</p>
+        </div>
+        <div class="caja5">
+            <img class="traje" src="articulo_3.png" alt="oferta3"  />
+            <p>Audifonos Bluetooth Inalambricos Negros</p>
+            <p>De:<strike>$1,249 </strike> A:$349</p>
+        </div>
+        <div class="caja6">
+            <img class="traje" src="articulo_4.png" alt="oferta4"/>
+            <p>Relojes Accesorios Café Marca Vermonti </p>
+            <p>De:<strike>$2,499 </strike> A:$899</p>
+        </div>
+        <div class="caja7">
+            <img src="pie_1.png" alt="logo_aldo" ;>
+        </div>
+        <div class="caja8">
+            <img src="pie_2.png" alt="politica privacidad" ;>
+        </div>
+        <div class="caja9">
+            <a href="https://www.facebook.com/aldocontitalia/" target="_blank" >
+                <img src="facebook.png" alt="logo_face" />
+                </a>
+                <a href="https://www.instagram.com/aldocontimx/" target="_blank" >
+                <img src="insta2.png" alt="logo_face"  />
+                </a>
+                <a href="https://twitter.com/aldocontiitalia" target="_blank" >
+                <img src="twitter3.png" alt="logo_face"  />
+                </a>
+                <a href="https://www.youtube.com/" target="_blank" >
+                <img src="youtube4.png" alt="logo_face" />
+                </a>
+        </div>
+        <div class="caja10">
+            <img src="piefin.png" alt="derechos" />
+        </div>
+        <!-- MDL Progress Bar with Buffering -->
+        <div id="p3" class="mdl-progress mdl-js-progress"></div>
+        <script>
+         document.querySelector('#p3').addEventListener('mdl-componentupgraded', function() {
+           this.MaterialProgress.setProgress(33);
+           this.MaterialProgress.setBuffer(87);
+         });
+        </script>
+        <!-- button -->
+        <button class="mdl-button mdl-js-button mdl-button--raised" disabled>
+            Button
+          </button>
+        <!-- Contact Chip -->
+    <span class="mdl-chip mdl-chip--contact">
+    <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">A</span>
+    <span class="mdl-chip__text">Contact Chip</span>
+    </span>
+        <!--Slider-->
+    <p style="width:300px">
+        <input class="mdl-slider mdl-js-slider" type="range" id="s1" min="0" max="10" value="4" step="2">
+        </p>
+<!-- Number badge -->
+<span class="mdl-badge" data-badge="4">Inbox</span>
+        
+
+    </div>
+    
+</body>
+</html>
